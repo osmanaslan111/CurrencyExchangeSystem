@@ -1,12 +1,12 @@
 # Currency Exchange Office System
-### WCF Web Service — .NET 6 | NBP API | SQLite
+### WCF Web Service — .NET 10 | NBP API | SQLite
 
 ---
 
 ## Project Overview
 
 A network-based currency exchange simulation system built with:
-- **WCF Service** (CoreWCF on .NET 6) — business logic + NBP API integration
+- **WCF Service** (CoreWCF on .NET 10) — business logic + NBP API integration
 - **Console Client** — interactive CLI consuming the WCF service
 - **SQLite Database** — persistent user accounts, wallets, and transactions
 
@@ -21,7 +21,7 @@ A network-based currency exchange simulation system built with:
 │  ┌──────────────────────┐  ┌──────────────────────┐ │
 │  │  CurrencyExchange    │  │  CurrencyExchange    │ │
 │  │     Service          │  │     Client           │ │
-│  │  (CoreWCF / .NET 6)  │  │  (Console / .NET 6) │ │
+│  │ (CoreWCF / .NET 10)  │  │  (Console / .NET 10) │ │
 │  │                      │  │                      │ │
 │  │  ICurrencyExchange   │  │  ServiceProxy        │ │
 │  │  ServiceImpl         │◄─┤  (BasicHttpBinding)  │ │
