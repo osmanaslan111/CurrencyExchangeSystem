@@ -45,7 +45,7 @@ A network-based currency exchange simulation system built with:
 
 ## Prerequisites
 
-- [.NET 6 SDK](https://dotnet.microsoft.com/download/dotnet/6.0) or newer
+- .NET 10
 - Visual Studio 2022 (recommended) or VS Code
 - Internet connection (for NBP API)
 
