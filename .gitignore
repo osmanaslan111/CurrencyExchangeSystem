@@ -1,0 +1,40 @@
+## Visual Studio / .NET gitignore
+
+# Build outputs
+bin/
+obj/
+out/
+
+# NuGet packages
+packages/
+*.nupkg
+.nuget/
+
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj.filters
+
+# Database files (keep schema.sql, ignore generated .db)
+*.db
+*.db-shm
+*.db-wal
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Test results
+TestResults/
+coverage/
+
+# Rider
+.idea/
