@@ -207,5 +207,7 @@ git push -u origin main
 
 ## Author
 
-Student project — Web Services course  
-.NET 6 / CoreWCF / SQLite / NBP API
+**Osman Aslan**  
+Student ID: 64519  
+Computer Science — Master's Degree  
+Web Services course — .NET / CoreWCF / SQLite / NBP API
